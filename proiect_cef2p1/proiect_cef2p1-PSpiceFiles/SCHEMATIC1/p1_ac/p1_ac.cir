@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-p1_ac"  [ c:\users\alexc\appdata\roaming\spb_data\cdssetup\workspace\projects\proiect_cef2p1\proiect_cef2p1-pspicefiles\schematic1\p1_ac.sim ] 
+
+** Creating circuit file "p1_ac.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/alexc/Downloads/Modele PSpice_Anexa 1/Lib_ModelePSpice_Anexa_1/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC817-25.lib" 
+.LIB "C:/Users/alexc/Downloads/Modele PSpice_Anexa 1/Lib_ModelePSpice_Anexa_1/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/MJD32CG.lib" 
+.LIB "C:/Users/alexc/Downloads/Modele PSpice_Anexa 1/Lib_ModelePSpice_Anexa_1/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC846B.lib" 
+.LIB "C:/Users/alexc/Downloads/Modele PSpice_Anexa 1/Lib_ModelePSpice_Anexa_1/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BC856B.lib" 
+.LIB "C:/Users/alexc/Downloads/Modele PSpice_Anexa 1/Lib_ModelePSpice_Anexa_1/Lib_ModelePSpice_Anexa_1/Modele_A1_lib/BZX84C2V7.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alexc\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,31 @@
+** Profile: "SCHEMATIC1-test_p1"  [ c:\users\alexc\desktop\p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad\schematics\proiect_cef2p1\proiect_cef2p1-pspicefiles\schematic1\test_p1.sim ] 
+
+** Creating circuit file "test_p1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc856b.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc846b.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/1n4148.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc817-25.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc807-25.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bzx84c2v7.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alexc\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP 0 60 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

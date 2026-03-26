@@ -1,0 +1,179 @@
+
+**** 11/18/25 21:13:00 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_p1"  [ c:\users\alexc\desktop\p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad\schematics\pro
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_p1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc856b.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc846b.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/1n4148.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc817-25.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bc807-25.lib" 
+.LIB "c:/users/alexc/desktop/p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad/schematics/lib_modelepspice_anexa_1/modele_"
++ "a1_lib/bzx84c2v7.lib" 
+* From [PSPICE NETLIST] section of C:\Users\alexc\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP 0 60 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CEF2P1
+D_D1         0 N11805 BZX84-C2V7 
+V_V1         N00085 0 10Vdc
+R_R1         N14416 N00085  82 TC=0,0 
+Q_Q3         N20903 N11805 N00584 QBC846B 
+Q_Q4         N02260 N30105 N00584 QBC846B 
+R_R3         N20895 N00085  1k TC=0,0 
+R_R4         N20899 N00085  1k TC=0,0 
+R_R5         N00976 N00085  1k TC=0,0 
+Q_Q5         N00584 N00976 N31369 QBC846B 
+R_R10         N09148 N02434  1.8k TC=0,0 
+R_R11         0 N09152  2.7k TC=0,0 
+R_RL         0 N02434  200 TC=0,0 
+X_R9         N09148 N30105 N09152 POT PARAMS: SET=0.55 VALUE=10K
+Q_Q10         N02260 N02271 N02434 QBC817-25 
+R_R6         0 N31369  220 TC=0,0 
+Q_Q9         N00085 N107740 N02271 QBC846B 
+R_R8         N02271 N02434  1.4 TC=0,0 
+X_R7         0 N12091 N11805 POT PARAMS: SET=0.853 VALUE=10K
+Q_Q11         N02260 N12091 0 QBC817-25 
+Q_Q2         N11805 N14501 N14416 QBC856B 
+Q_Q1         N14501 N14416 N00085 QBC856B 
+R_R2         0 N14501  1k TC=0,0 
+Q_Q8         N00085 N02260 N107740 QBC846B 
+Q_Q6         N20903 N20903 N20895 QBC807-25 
+Q_Q7         N02260 N20903 N20899 QBC807-25 
+X_D2         N27431 0 LED PARAMS: IS=1.9786e-19 RS=5  BV=5 IBV=10e-6         
+R_Rled         N27431 N00085  680 TC=0,0 
+D_D3         N00976 N32969 D1N4148 
+D_D4         N32969 0 D1N4148 
+
+**** RESUMING test_p1.cir ****
+.END
+
+**** 11/18/25 21:13:00 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_p1"  [ c:\users\alexc\desktop\p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad\schematics\pro
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C2V7      D1N4148         X_D2.model201   
+          IS  110.880000E-18    2.682000E-09  197.860000E-21 
+           N     .92657         1.836           2            
+         ISR    1.515900E-06    1.565000E-09                 
+         IKF  147.68             .04417                      
+          BV    2.7639        100               5            
+         IBV     .06977       100.000000E-06   10.000000E-06 
+          RS     .85899          .5664          5            
+          TT   17.889000E-09   11.540000E-09                 
+         CJO  344.690000E-12    4.000000E-12                 
+          VJ     .72935          .5                          
+           M     .31964          .3333                       
+
+
+**** 11/18/25 21:13:00 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_p1"  [ c:\users\alexc\desktop\p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad\schematics\pro
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC856B         QBC846B         QBC817-25       QBC807-25       
+               PNP             NPN             NPN             PNP             
+       LEVEL    1               1               1               1            
+          IS   20.140000E-15   18.220000E-15   91.980000E-15  108.000000E-15 
+          BF  315.3           324.4           338.8           385.7          
+          NF     .9974           .9932          1.003            .99         
+         VAF   39.15           82             107.9            31.29         
+         IKF     .079            .109            .4913           .3603       
+         ISE    6.578000E-15  289.400000E-18  446.800000E-18   27.130000E-15 
+          NE    1.45            1.4             1.65            1.4          
+          BR    8.68            8.29           29.48           20.57         
+          NR     .9952           .9931          1.002            .9849       
+         VAR    9.5            17.9            25              11.62         
+         IKR     .09             .09             .193            .054        
+         ISC   16.330000E-15    9.982000E-12    5.109000E-15  506.200000E-15 
+          NC    1.15            1.763           1.071           1.295        
+         ISS    0               0               0               0            
+          RB   10              10               1               1            
+         RBM    5.000000E-06    5               1                .5          
+         IRB    5.000000E-06    5.000000E-06    1.000000E+03    1.000000E-06 
+          RE     .663            .649            .2126           .1415       
+          RC     .718            .7014           .143            .2623       
+         CJE   11.350000E-12   12.440000E-12   38.250000E-12   51.140000E-12 
+         VJE     .7071           .7579           .7004           .8911       
+         MJE     .3808           .3656           .364            .4417       
+         CJC    6.395000E-12    3.347000E-12   12.700000E-12   26.560000E-12 
+         VJC     .4951           .5463           .4431           .62         
+         MJC     .44             .391            .3983           .4836       
+        XCJC     .6288           .6193           .4555           .459        
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333            .333            .333        
+          FC     .9059           .979            .905            .99         
+          TF  654.600000E-12  490.800000E-12  522.900000E-12  735.900000E-12 
+         XTF    5.387           9.51          219.7             1.859        
+         VTF    6.245           2.927           3.502           3.813        
+         ITF     .2108           .3131          7.257            .4393       
+          TR   55.000000E-09   90.000000E-09   70.000000E-12   50.000000E-09 
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.42            2.2          
+           D     .52             .87             .87             .52         
+
+
+
+          JOB CONCLUDED
+
+**** 11/18/25 21:13:00 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_p1"  [ c:\users\alexc\desktop\p1_2025_434e_cristea_alexandru_patric_stefan_sers_n5_orcad\schematics\pro
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .19
+

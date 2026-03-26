@@ -1,0 +1,180 @@
+(ExpressProject "proiect_cef2p1"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 P001 (4349869)  [9/14/2025]-[11/17/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\proiect_cef2p1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\proiect_cef2p1_output\bom.sch.csv"
+      (Type "Report")
+      (DisplayName ".\PROIECT_CEF2P1_OUTPUT\BOM.SCH.CSV"))
+    (File ".\proiect_cef2p1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\proiect_cef2p1-pspicefiles\schematic1\test_p1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_cef2p1-pspicefiles\schematic1\test_p1.sim"
+        (DisplayName "SCHEMATIC1-test_p1")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))))
+  (Folder "Logs")
+  (MPSSessionName "alexc")
+  (PartMRUSelector
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IAC
+      (FullPartName "IAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DESKTOP\P1_2025_434E_CRISTEA_ALEXANDRU_PATRIC_STEFAN_SERS_N5_ORCAD\SCHEMATICS\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\1N4148.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QMJD31C
+      (FullPartName "QMJD31C.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\MJD31CG.OLB")
+      (DeviceIndex "0"))
+    (QMJD32CT4G
+      (FullPartName "QMJD32CT4G.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\MJD32CG.OLB")
+      (DeviceIndex "0"))
+    (QBC807-25
+      (FullPartName "QBC807-25.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC807-25.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC846B.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC856B.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C2V7
+      (FullPartName "BZX84-C2V7.Normal")
+      (LibraryName
+         "C:\USERS\ALEXC\DOWNLOADS\MODELE PSPICE_ANEXA 1\LIB_MODELEPSPICE_ANEXA_1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BZX84C2V7.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\alexc\Desktop\P1_2025_434E_Cristea_Alexandru_Patric_Stefan_SERS_N5_OrCAD\Schematics\Lib_ModelePSpice_Anexa_1\Modele_A1_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\proiect_cef2p1.dsn")
+      (Path "Design Resources" ".\proiect_cef2p1.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 687"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 5 24 24")
+        (Scroll "-141 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ALEXC\DESKTOP\P1_2025_434E_CRISTEA_ALEXANDRU_PATRIC_STEFAN_SERS_N5_ORCAD\SCHEMATICS\PROIECT_CEF2P1\PROIECT_CEF2P1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
